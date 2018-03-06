@@ -16,4 +16,10 @@ public class MyRectangle extends MyRoundedShape {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
