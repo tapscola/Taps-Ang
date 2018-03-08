@@ -3,6 +3,8 @@
  */
 package myshape;
 
+import javax.swing.JFrame;
+
 /**
  * @author Tapiwa Musasa and Ang Li
  *
@@ -19,9 +21,13 @@ public final class TapsAngMain {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	//Run this in your main, Tap
+	  public static void main(String[] args) {
+	    new JavaApplication7();
+	     JFrame.setDefaultLookAndFeelDecorated(true);
+//	        SimpleDraw frame = new SimpleDraw();
+//	        frame.pack();
+//	        frame.setVisible(true);
+	  }
 
 }

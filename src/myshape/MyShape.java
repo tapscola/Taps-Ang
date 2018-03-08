@@ -13,7 +13,7 @@ import java.awt.*;
  */
 public abstract class MyShape {
 	
-	private int height;
+	private int x, y, w, h;
 	private Color Shapecolor;
 	private int width;
 	private Point location = new Point(0, 0);
@@ -23,6 +23,11 @@ public abstract class MyShape {
 	 */
 	public MyShape() {
 		// TODO Auto-generated constructor stub
+        x = 0;
+        y = 0;
+        w = 0;
+        h = 0;
+        Shapecolor = Color.LIGHT_GRAY;
 	}
 
 	/**
@@ -71,14 +76,14 @@ public abstract class MyShape {
 	 * @return the height
 	 */
 	public int getDrawingHeight() {
-		return height;
+		return x;
 	}
 
 	/**
 	 * @param height the height to set
 	 */
-	public void setDrawingHeight(int height) {
-		this.height = height;
+	public void setDrawingHeight(int x) {
+		this.x = x;
 	}
 	
 	public abstract void draw();
